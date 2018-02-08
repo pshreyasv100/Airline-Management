@@ -1,0 +1,620 @@
+								body
+                               {
+                                background-image: url("pexels-photo.jpg");
+                                background-repeat: no-repeat;
+                                background-attachment: fixed;
+                                background-size:cover;
+                                }
+
+h3{
+	font-family :georgia;
+	font-size:50px;
+	font-weight:bold;
+	height:40px;
+	text-align:center;
+	background:none;
+	padding-top:40px;
+	position:relative;
+	border-bottom:2px;
+	
+}
+
+body{	
+}
+.navigation_bar{
+	width:100%;
+	clear:both;
+	position:relative;
+	left:8%;
+}
+
+.navigation_bar li:hover .dropdown{
+   z-index:1;
+   opacity:1;
+}
+
+
+
+.navigation_bar ul li  {
+	padding-top:12px;
+	background:#00004d;
+	display:inline-block;
+	list-style-type:none;
+	width:120px;
+	height:28px;
+	text-align:center;
+	font-size:18px;
+	font-family:'georgia';
+	}
+
+.navigation_bar ul li a{
+	color:white;
+	text-decoration:none;
+	}
+	
+.navigation_bar ul li:hover{
+	color:blue;
+	opacity:1;
+	background-color:#D3D3D3;
+	text-decoration:underline;
+}
+
+.gallery{
+	top:45px;
+	width:100%;
+	margin-left:-5px;
+	height:763px;
+	border: 1px solid #D3D3D3;
+	position:relative;
+	padding-left:0px;
+
+}
+.website_info{
+	font-family:'Courier New';
+	color:#00004d;
+	font-size:20px;
+	text-align:center;
+}
+
+.home_page_footer{
+	text-align:center;
+	clear:both;
+	
+}
+.navigat{
+	background-color:#00004d;
+	width:100%;
+	height:45px;
+}
+.back_top{
+	border:0;
+	bottom: 0px;
+    left: 0px;
+	margin-bottom:10px;
+	margin-left:10px;
+	padding-top:0px;
+	height:50px;
+	border-radius:40px 40px 40px 40px;
+	width:50px;
+	position:fixed;
+	z-index:1;
+	background-color:#00004d;
+	opacity:0.5;
+	
+}
+.back_top:hover{
+	
+	opacity:1;
+	
+}
+
+button a{
+		font-family:'Times New Roman';
+		font-size:60px;
+		color:#66a3ff;
+		padding-bottom:0px;
+		text-decoration:none;
+		text-align:center;
+}
+
+footer p img{
+		padding-left:10px;
+}
+span{
+	text-decoration:none;
+	color:#696969;
+}
+
+
+.go_left{
+		position:absolute;
+		margin-left:-0.5%;
+		top:45%;
+		left:0px;
+		border:0;
+		border-radius:0px 40px 40px 0px;
+		width:55px;
+		z-index:1;
+		opacity:1;
+}
+.go_left:hover{
+	opacity:0.5;
+}
+
+
+.go_right{
+		position:absolute;
+		top:45%;
+		right:0px;
+		border:0;
+		border-radius:40px 0px 0px 40px;
+		width:55px;
+		z-index:1;
+}
+.go_right:hover{
+	opacity:0.5;
+}
+.about_web{
+	text-align:center;
+}
+
+
+.newscolumn{
+
+	position:relative;
+	top:20px;
+	column-count: 3;
+	column-span: 2;
+}
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  top:50px;
+  left:-120px;
+  position: relative;
+  margin: auto;
+  border:1;
+  border-color:white;
+}
+.mySlides{
+	border:solid 10px white;
+	border-radius:10px 10px 10px 10px;
+	 box-shadow: 0 0 15px 5px #141414;
+	 width:125%;
+	 align:center;
+	overflow:hidden !important;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease-out;
+  border-radius: 0 30px 30px 0;
+}
+
+
+.next {
+  right: -270px;
+  border-radius: 30px 0 0 30px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+
+.text {
+  color: auto;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  position:relative;
+  top:100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.9s;
+  animation-name: fade;
+  animation-duration: 1.9s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/**********aircraft families*****************/
+
+.air_family{
+	position:relative;
+	background:#FEE4D4;
+	height:500px;
+	width:99.6%;
+	top:100px;
+	opacity:0.717171;
+	border:solid 5px white;
+	border-radius:5px 5px 5px 5px;
+	box-shadow: 0 0 15px 5px #141414;
+	clear:both;
+}
+
+.air_family h2{
+	font-family:Trebuchet MS;
+	font-size:40px;
+	padding-left:25px;
+	text-decoration:underline;
+}
+.air_family p{
+	
+	font-family:Times New Roman;
+	font-size: 25px;
+	padding-left:15px;
+}
+#air_1{
+	position:relative;
+	opacity:1 !important;
+	align:right;
+	height:450px;
+	top:-225px;
+	padding-right:20px;
+	width:auto;
+	border-radius:30px 30px 30px 30px;
+}
+
+#air_2{
+	position:relative;
+	opacity:1 !important;
+	align:right;
+	height:450px;
+	top:-170px;
+	padding-right:20px;
+	width:auto;
+	border-radius:30px 30px 30px 30px;
+}
+
+#air_3{
+	position:relative;
+	opacity:1 !important;
+	align:right;
+	height:450px;
+	top:-200px;
+	padding-right:20px;
+	width:auto;
+	border-radius:30px 30px 30px 30px;
+}
+/***************************************NOOBS*********************/
+
+.dropbtn {
+	position:fixed;
+    opacity:0.7;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+	border:0;
+    border-radius:30px 0px 0px 30px;
+    cursor: pointer;
+}
+
+
+.more {
+	right:50px;
+	top:20px;
+    position: fixed;
+	z-index:2;
+    display: inline-block;
+}
+
+
+.more-content {
+    display: none;
+    position: fixed;
+	right:50px;
+	border:0;
+	background-color:white;
+	opacity:0.7;
+    min-width: 160px;
+}
+
+.more-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.more-content a:hover {
+	opacity:1;
+}
+
+
+.more:hover .more-content {
+    display: block;
+}
+
+.more:hover .dropbtn {
+    opacity:0.87;
+	border-radius:0px 0px 0px 0px;
+}
+
+
+/***************Img Id********************/
+#imgid{
+	height:0;
+	overflow:visible;
+	pointer-events:none;
+}
+
+/*************signup**********/
+
+.sigsrl{
+	position:fixed;
+	display:block;
+	top:0;
+	opacity:0.7;
+	right:30px;
+	border:0px 0px 3px 3px;
+}
+.sigsrl:hover{
+	opacity:1;
+}
+
+.join_text{
+padding-left:25px;
+font-family:Trebuchet;
+font-size:29px;
+}
+
+.effect{
+	position:fixed;
+	left:0;
+	top:85%;
+}
+.effect1{
+	position:relative;
+	height:0;
+	top:50%;
+	overflow:visible;
+	opacity:0.5;
+}
+
+/**************NEWS AND UPDATES*********************/
+
+.news{
+	position:relative;
+	background:grey;
+	height:500px;
+	width:97.6%;
+	top:45px;
+	padding-bottom:40px;
+	opacity:0.717171;
+	border:solid 5px white;
+	border-radius:5px 5px 5px 5px;
+	box-shadow: 0 0 15px 5px #141414;
+	clear:both;
+	padding-left:20px;
+}
+
+.news h2{
+	font-family:Trebuchet MS;
+	font-size:30px;
+	width:97%;
+	color:white;
+	right:0;
+	text-align:right;
+	padding-left:25px;
+	text-decoration:underline;
+}
+.news p{
+	width:100%;
+	right:0;
+	width:97%;
+	font-family:Times New Roman;
+	font-size: 22px;
+	color:white;
+	text-align:right;
+padding-left:15px;}
+.newsimg{
+	position:relative;
+	opacity:1;
+	align:right;
+	height:450px;
+	top:-225px;
+	padding-right:20px;
+	width:auto;
+	clear:both;
+	border-radius:30px 30px 30px 30px;
+}
+.newsimg2{
+	top:-185px;
+	height:380px;
+}
+.newsimg3{
+	top:-150px;
+	position:relative;
+	height:400px;
+}
+.headr{
+	
+	font-size:45x;
+	text-align:left;
+}
+
+.big{
+	position:relative;
+	opacity:0.7;
+	width:99%;
+	clear:both;
+	height:550px;
+	border:solid 5px white;
+	border-radius:5px 5px 5px 5px;
+	box-shadow: 0 0 15px 5px #141414;
+}
+.big h2{
+	font-family:Trebuchet;
+	text-decoration:underline;
+	font-size:50px;
+	padding-right:30px;
+	width-right:40%;
+	text-align:right;
+}
+.big p{
+	font-family:Times;
+	font-size:20px;
+	padding-right:30px;
+	width-right:40%;
+	text-align:right;
+}
+.video{
+	top:50px;
+	padding-left:15px;
+	position:absolute;
+	clear:left;
+	align:left;
+	opacity:1;
+	border-radius:15px 15px;
+}
+#mug_shot{
+	transition:all 1s ease-out;
+	opacity:0;
+}
+
+#mug_shot:hover{
+	transform:scale(1.09);
+	opacity:1;
+}
+
+.video1{
+	display:none;
+	z-index:-1;
+	position:absolute;
+}
+.video1:hover{
+	z-index:1;
+	display:block;
+	
+}
+
+/****************NOOBS************/
+.planes_basics_intro{
+	font-family:hebrew;
+	font-size:30px;
+}
+.heades{font-size:43px;
+font-family:georgia;}
+.physics_involved{
+	font-family:hebrew;
+	font-size:30px;
+	width:60%;
+	text-align:left;
+}
+#forces_of_flight{
+	position:absolute;
+ right:0;
+ top:625px;
+ padding-right:35px;
+}
+
+.physics_involved1{
+	font-family:hebrew;
+	font-size:30px;
+	width:100%;
+	text-align:left;
+}
+
+#airfoil_makes_lift{
+	position:absolute;
+	right:0;
+ top:955px;
+ padding-right:35px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
